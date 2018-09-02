@@ -37,5 +37,10 @@ public class Alberi {
         
         }while(i!=9);
     }
+    private static void stampaMenu()
+    {
+    System.out.println("1. inserisci ");
+    System.out.println("2. ricerca");
     
+    }
 }
