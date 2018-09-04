@@ -27,9 +27,9 @@ public class Alberi {
                   inserisci_albero();
                   break;
               case 2:
-                  ricerca_aòbero();
+                  ricerca_albero();
                   break;
-              default;
+              default:
                 System.out.println("scelta non valida");
                 break;
                   
@@ -42,5 +42,13 @@ public class Alberi {
     System.out.println("1. inserisci ");
     System.out.println("2. ricerca");
     
+    }
+
+    private static void inserisci_albero() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    private static void ricerca_albero() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
